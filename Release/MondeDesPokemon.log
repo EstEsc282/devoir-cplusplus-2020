@@ -1,0 +1,5 @@
+﻿  Pokemon.cpp
+C:\Users\arceu\source\repos\MondeDesPokemon\MondeDesPokemon\Pokemon.cpp(51,1): error C2084: la fonction 'void Pokemon::setNom(const std::string &)' a déjà un corps
+C:\Users\arceu\source\repos\MondeDesPokemon\MondeDesPokemon\Pokemon.cpp(14): message : voir la définition précédente de 'setNom'
+  App.cpp
+C:\Users\arceu\source\repos\MondeDesPokemon\MondeDesPokemon\App.cpp(4,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
