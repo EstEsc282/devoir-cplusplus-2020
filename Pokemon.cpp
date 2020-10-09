@@ -1,4 +1,5 @@
 #include "Pokemon.h"
+
 Pokemon::Pokemon() { // constructeur
 
 }
@@ -31,7 +32,7 @@ int Pokemon::getVie() const
 }
 void Pokemon::setVie(int vie)
 {
-	this->vie = true;
+	this->vie = vie;
 }
 
 const string& Pokemon::getType() const
@@ -72,5 +73,18 @@ void Pokemon::setVitesse(float vitesse)
 
 string Pokemon::exporter()
 {
-	return "<Pokemon><Pokemon/>";
+	stringstream xml;
+
+	xml << "<Pokemon>" << endl;
+
+	xml << "<nom>" << this->nom << "</nom>" << endl;
+	xml << "<capture>" << this->capture << "</capture>" << endl;
+	xml << "<vie>" << this->vie << "</vie>" << endl;
+	xml << "<type>" << this->type << "</type>" << endl;
+	xml << "<capacite>" << this->capacite << "</capacite>" << endl;
+	xml << "<puissance>" << this->puissance << "</puissance>" << endl;
+	xml << "<vitesse>" << this->vitesse << "</vitesse>" << endl;
+	
+	xml << "</Pokemon>" << endl;
+	return xml.str();
 }

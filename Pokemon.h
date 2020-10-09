@@ -1,7 +1,13 @@
 #ifndef POKEMON_H
 #define POKEMON_H
 
+#include "Capacite.h";
+
+#include "Poison.h";
+#include "Electrique.h";
+
 #include <iostream>
+#include <sstream>
 using namespace std;
 
 class Pokemon{
@@ -39,7 +45,8 @@ public:
 	float getVitesse() const;
 	void setVitesse(float vitesse);
 
-	string exporter();
+
+	virtual string exporter();
 };
 
 #endif
