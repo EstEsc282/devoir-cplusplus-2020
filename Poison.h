@@ -28,7 +28,7 @@ public:
 		return poisoned;
 	}
 
-	string exporter();
+	virtual string exporter();
 
 };
 #endif

@@ -21,9 +21,17 @@ int main(){
 
 	Poison nostenferd;
 	nostenferd.activePoisoned();
-	cout << nostenferd.isPoisoned() << endl;
-	cout << "dffffffffffffzgd" << endl;
 	cout << nostenferd.exporter() << endl;
+
+	Pokemon * grotadmorv = new Poison;
+	grotadmorv->setNom("grotadmorv");
+	grotadmorv->isCapture();
+	grotadmorv->setVie(165);
+	grotadmorv->setType("poison");
+	grotadmorv->setCapacite("poison-croix");
+	grotadmorv->setPuissance(50);
+	grotadmorv->setVitesse(75);
+	cout << grotadmorv->exporter() << endl;
 
 	Pokemon pikachu;
 	pikachu.setNom("pikachu");

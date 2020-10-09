@@ -11,7 +11,9 @@ string Electrique::exporter()
 {
 	stringstream xml;
 	xml << "<Electrique>";
-	xml << "<paralised>" << this->paralised << "</paralised>";
+	xml << "<paralised>";
+	if (this->isParalised() == 1) { xml << this->paralised; }
+	xml << "</paralised>";
 	xml << "</Electrique>";
 	return xml.str();
 }
