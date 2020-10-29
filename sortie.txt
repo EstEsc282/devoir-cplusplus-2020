@@ -1,0 +1,31 @@
+<Pokemon>
+<nom></nom>
+<capture>n'est pas capture</capture>
+<vie>-842150451</vie>
+<type></type>
+<capacite></capacite>
+<puissance>-4.31602e+08</puissance>
+<vitesse>-4.31602e+08</vitesse>
+</Pokemon>
+
+<Poison><poisoned>n'est pas empoisonne</poisoned></Poison>
+
+<Electrique><paralised>n'est pas paralise</paralised></Electrique>
+
+<Poison><poisoned>est empoisonne</poisoned></Poison>
+
+<Poison><poisoned>n'est pas empoisonne</poisoned></Poison>
+
+<Electrique><paralised>n'est pas paralise</paralised></Electrique>
+
+<Poison><poisoned>n'est pas empoisonne</poisoned></Poison>
+
+<Electrique><paralised>n'est pas paralise</paralised></Electrique>
+
+n'est pas empoisonne
+n'est pas paralise
+est empoisonne
+n'est pas empoisonne
+n'est pas paralise
+n'est pas empoisonne
+n'est pas paralise

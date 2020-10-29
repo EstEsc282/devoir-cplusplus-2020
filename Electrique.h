@@ -29,6 +29,7 @@ public:
 	}
 
 	string exporter();
+	string exporterT();
 
 };
 #endif

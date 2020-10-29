@@ -8,6 +8,7 @@ class Poison : public Pokemon
 protected:
 
 	bool poisoned;
+	int degatp = 25;
 
 public:
 	Poison();
@@ -28,7 +29,11 @@ public:
 		return poisoned;
 	}
 
+	int getDegatPoison() const;
+	void setDegatPoison(int degatp);
+
 	virtual string exporter();
+	virtual string exporterT();
 
 };
 #endif

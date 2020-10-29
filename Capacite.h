@@ -1,17 +1,22 @@
 #ifndef CAPACITE_H
 #define CAPACITE_H
 
-#include "PlaixCroix.h";
-#include "BouleElec.h";
-
-#include "Pokemon.h"
-
 #include <iostream>
+#include <sstream>
 using namespace std;
 
 class Capacite
 {
-	//virtual void* pcapacite;
+protected :
+	string cnom;
+	int ppcapacite;
+
+public :
+	const string& getCNom() const;
+	void setCNom(const string& cnom);
+
+	int getPP() const;
+	void setPP(int ppcapacite);
 
 	string exporter();
 };

@@ -19,19 +19,19 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BouleElec.h" />
+    <ClInclude Include="BouleElek.h" />
     <ClInclude Include="Capacite.h" />
     <ClInclude Include="Electrique.h" />
-    <ClInclude Include="PlaixCroix.h" />
+    <ClInclude Include="PoisonCroix.h" />
     <ClInclude Include="Poison.h" />
     <ClInclude Include="Pokemon.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
-    <ClCompile Include="BouleElec.cpp" />
+    <ClCompile Include="BouleElek.cpp" />
     <ClCompile Include="Capacite.cpp" />
     <ClCompile Include="Electrique.cpp" />
-    <ClCompile Include="PlaixCroix.cpp" />
+    <ClCompile Include="PoisonCroix.cpp" />
     <ClCompile Include="Poison.cpp" />
     <ClCompile Include="Pokemon.cpp" />
   </ItemGroup>

@@ -17,15 +17,6 @@ void Pokemon::setNom(const string& nom)
 	this->nom = nom;
 }
 
-bool Pokemon::isCapture() const
-{
-	return capture;
-}
-void Pokemon::setCapture(const bool capture)
-{
-	this->capture = true;
-}
-
 int Pokemon::getVie() const
 {
 	return vie;
@@ -78,7 +69,12 @@ string Pokemon::exporter()
 	xml << "<Pokemon>" << endl;
 
 	xml << "<nom>" << this->nom << "</nom>" << endl;
-	xml << "<capture>" << this->capture << "</capture>" << endl;
+	xml << "<capture>";
+		if (this->isCapture() == 1) {
+			xml << "est capture";
+		}
+		else { xml << "n'est pas capture"; }
+	xml << "</capture>" << endl;
 	xml << "<vie>" << this->vie << "</vie>" << endl;
 	xml << "<type>" << this->type << "</type>" << endl;
 	xml << "<capacite>" << this->capacite << "</capacite>" << endl;
@@ -86,5 +82,13 @@ string Pokemon::exporter()
 	xml << "<vitesse>" << this->vitesse << "</vitesse>" << endl;
 	
 	xml << "</Pokemon>" << endl;
+	return xml.str();
+} 
+
+string Pokemon::exporterT()
+{
+	stringstream xml;
+
+	xml << "";
 	return xml.str();
 }

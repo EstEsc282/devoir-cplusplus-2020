@@ -1,8 +1,6 @@
 #ifndef POKEMON_H
 #define POKEMON_H
 
-#include "Capacite.h";
-
 #include <iostream>
 #include <sstream>
 using namespace std;
@@ -12,20 +10,32 @@ protected:
 	string nom;
 	bool capture;
 	int vie;
-	string type;
-	string capacite;
+	string type = "";
+	string capacite = "";
 	float puissance;
 	float vitesse;
 public:
 	Pokemon();
 	virtual ~Pokemon();
-	Pokemon(const Pokemon& other);
 
 	const string& getNom() const;
 	void setNom(const string& nom);
 
-	bool isCapture() const;
-	void setCapture(bool capture);
+
+	void Capture()
+	{
+		this->capture = true;
+	}
+
+	void unCapture()
+	{
+		this->capture = false;
+	}
+
+	bool isCapture() const
+	{
+		return capture;
+	}
 
 	int getVie() const;
 	void setVie(int vie);
@@ -44,6 +54,7 @@ public:
 
 
 	virtual string exporter();
+	virtual string exporterT();
 };
 
 #endif

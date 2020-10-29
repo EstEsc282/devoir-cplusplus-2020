@@ -1,5 +1,14 @@
-﻿  Poison.cpp
-C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\Pokemon.h(4,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\Capacite.h(4,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\Capacite.h(5,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+﻿  App.cpp
+C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\App.cpp(4,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\App.cpp(5,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\App.cpp(7,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\App.cpp(8,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\App.cpp(10,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\App.cpp(11,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
+C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\App.cpp(141,43): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\App.cpp(146,43): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\App.cpp(164,44): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\App.cpp(219,45): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\App.cpp(226,39): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\App.cpp(249,46): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
   MondeDesPokemon.vcxproj -> C:\Users\arceu\OneDrive\Documents\MondeDesPokemons\Debug\MondeDesPokemon.exe

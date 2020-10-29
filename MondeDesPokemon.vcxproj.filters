@@ -27,10 +27,10 @@
     <ClInclude Include="Electrique.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="PlaixCroix.h">
+    <ClInclude Include="BouleElek.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="BouleElec.h">
+    <ClInclude Include="PoisonCroix.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
@@ -50,10 +50,10 @@
     <ClCompile Include="Electrique.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="PlaixCroix.cpp">
+    <ClCompile Include="BouleElek.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="BouleElec.cpp">
+    <ClCompile Include="PoisonCroix.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>

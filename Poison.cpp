@@ -2,6 +2,16 @@
 
 Poison::Poison() {
 	this->poisoned = false;
+	this->degatp = 25;
+}
+
+int Poison::getDegatPoison() const
+{
+	return degatp;
+}
+void Poison::setDegatPoison(int degatp)
+{
+	this->degatp = degatp;
 }
 
 Poison::~Poison() {
@@ -10,23 +20,27 @@ Poison::~Poison() {
 string Poison::exporter()
 {
 	stringstream xml;
+
 	xml << "<Poison>";
 	xml << "<poisoned>";
-	if (this->isPoisoned() == 1) { xml << "est empoisonne"; }
+	if (this->isPoisoned() == 1) {
+		xml << "est empoisonne";
+	}
 	else { xml << "n'est pas empoisonne"; }
 	xml << "</poisoned>";
-	xml << "</Poison>";
+	xml << "</Poison>" << endl;
 
-	xml << "<Pokemon>" << endl;
+	return xml.str();
+}
 
-	xml << "<nom>" << this->nom << "</nom>" << endl;
-	xml << "<capture>" << this->capture << "</capture>" << endl;
-	xml << "<vie>" << this->vie << "</vie>" << endl;
-	xml << "<type>" << this->type << "</type>" << endl;
-	xml << "<capacite>" << this->capacite << "</capacite>" << endl;
-	xml << "<puissance>" << this->puissance << "</puissance>" << endl;
-	xml << "<vitesse>" << this->vitesse << "</vitesse>" << endl;
+string Poison::exporterT()
+{
+	stringstream xml;
 
-	xml << "</Pokemon>" << endl;
+	if (this->isPoisoned() == 1) { 
+		xml << "est empoisonne";
+	}
+	else { xml << "n'est pas empoisonne"; }
+
 	return xml.str();
 }
